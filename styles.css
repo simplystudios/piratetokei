@@ -63,7 +63,26 @@ a {
     display: inline-block;
     padding: 5px;
 }
+.nav_links_moble{
+    list-style: none;
+    text-align: center;
+    display: none;
+    margin-bottom: 16px;
+}
+.nav_links_moble li a:hover {
+    color: rgb(94, 232, 124);
+}
 
+.nav_links_moble li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links_moble li {
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
 @media only screen and (max-width : 600px) {
     .header{
         display: flex;
