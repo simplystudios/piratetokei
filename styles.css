@@ -5,9 +5,28 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Pixelify Sans;
+        color: white;
+}
+.main{
+    padding: 10px;
+    margin: 20%;
+    text-align: center;
 }
 
+.crc{
+    padding: 5px;
+    border: 1;
+    border-radius: 100px;
+    width: 80px;
+}
 
+.members{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -49,9 +68,14 @@ a {
 }
 
 .nav_links li a:hover {
-    color: rgb(94, 232, 124);
+    color:#68e8e6;
 }
-
+.logo:hover{
+    
+}
+.foot{
+    margin: 10px;
+}
 .nav_links li a {
     transition: all 0.3s ease 0s;
     text-align: center;

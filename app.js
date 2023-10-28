@@ -1,6 +1,6 @@
 const menubut  = document.getElementById('menu')
 const nav = document.getElementById('nav')
-let num = 1
+let num = 0
 
 function openmenu(){
     if (num == 0){
